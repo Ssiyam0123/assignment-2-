@@ -8,6 +8,9 @@
     margin: 0px;
     padding: 0px;
 }
+button{
+    cursor: pointer;
+}
 header{
     width: 80%;
     margin: 0 auto;
@@ -27,7 +30,6 @@ nav ul{
     box-sizing: border-box;
 border: 1px solid rgba(255, 255, 255, 0.1);
 border-radius: 39px;
-
 }
 .title h1{
     color: rgb(230, 83, 60);
@@ -40,7 +42,6 @@ font-weight: 800;
 }
 .home1{
     border-radius: 46px;
-
 background: rgb(230, 83, 60);
 color: rgb(255, 255, 255);
 font-family: Inter;
@@ -168,6 +169,9 @@ font-size: 14px;
 font-weight: 400;
 margin-bottom: 50px;
 }
+
+
+
 .circle-card{
     display: flex;
     justify-content: space-between;
@@ -195,6 +199,8 @@ font-weight: 400;
     /* border: 2px solid red; */
     
 }
+
+
 
 
 .third-page{
@@ -242,6 +248,9 @@ background-color:#222222;
     /* height: 300px; */
     border-radius: 18px;
 }
+
+
+
 
 
 .fourth-page-heading{
@@ -295,6 +304,9 @@ font-family: Inter;
 font-size: 16px;
 font-weight: 500;
 }
+
+
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -334,6 +346,9 @@ font-size: 14px;
 font-weight: 400;
 margin-bottom: 35px;
 }
+
+
+
 form{
     background-color:#222222;
 }
@@ -356,6 +371,9 @@ background: rgba(255, 255, 255, 0.1);
     justify-content: center;
     align-items: center;
 }
+
+
+
 .credits{
     width: 80%;
     margin: 0 auto;
@@ -389,18 +407,66 @@ margin-bottom: 80px;
 .box-card-circle-img{
     background: rgb(34, 34, 34);
 }
-footer{
-    background: rgba(255, 255, 255, 0.1);
+
+
+
+.footer-mid{
     width: 80%;
     margin: 0 auto;
     display: flex;
     margin-top: 100px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
 }
 footer ul{
     list-style: none;
 }
 .footer-right{
     display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+.footer-right li{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 23px;
+font-weight: 400;
+margin-bottom: 20px;
+cursor: pointer;
+}
+.footer-right h1{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 32px;
+font-weight: 700;
+margin-bottom: 40px;
+}
+.footer-left{
+    width: 50%;
+}
+.footer-left h1{
+    color: rgb(230, 83, 60);
+font-family: Inter;
+font-size: 70px;
+font-weight: 800;
+margin-top: 60px;
+margin-bottom: 20px;
+}
+.footer-left p{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+}
+#last{
+    padding-bottom: 80px;
+}
+#copy-right{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+text-align: center;
+padding: 30px;
 }
 @media screen and (max-width: 576px){
     
