@@ -450,6 +450,7 @@ font-size: 70px;
 font-weight: 800;
 margin-top: 60px;
 margin-bottom: 20px;
+
 }
 .footer-left p{
     color: rgba(255, 255, 255, 0.5);
@@ -468,6 +469,15 @@ font-weight: 400;
 text-align: center;
 padding: 30px;
 }
+.footer-mid{
+    
+
+}
+
+
+
+
+     
 @media screen and (max-width: 576px){
     
     .home{
@@ -505,5 +515,15 @@ padding: 30px;
         display: grid;
         grid-template-columns: repeat(1,1fr);
         gap: 20px;
+    }
+    .footer-mid{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .footer-right{
+        display: flex;
+        flex-direction: column;
     }
 }
