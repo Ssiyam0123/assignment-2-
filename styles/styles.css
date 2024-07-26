@@ -593,10 +593,11 @@ background: #222222;
         width: 100%;
     }
     .bmi-right{
-        width: 100%;
+        width: 80%;
     }
-    .form input{
-        padding: 12px 10px 12px 20px;
-        margin-right: 5px;
+    form input{
+        padding: 12px 100px 12px 20px;
+        width: 80%;
+        gap: 5px;
     }
 }
