@@ -25,11 +25,11 @@ nav{
 nav ul{
     display: flex;
     list-style: none;
-    /* border: 2px solid whitesmoke; */
     justify-content: space-between;
     box-sizing: border-box;
 border: 1px solid rgba(255, 255, 255, 0.1);
 border-radius: 39px;
+padding:6px 8px;
 }
 .title h1{
     color: rgb(230, 83, 60);
@@ -56,12 +56,17 @@ font-family: Inter;
 font-size: 18px;
 font-weight: 600;
 padding: 12px 25px;
+border: none;
 }
 .home li{
     color: rgb(255, 255, 255);
 font-family: Inter;
 font-size: 18px;
 font-weight: 400;
+}
+.home li{
+    margin-top: 13px;
+    cursor: pointer;
 }
 
 .first-page-left{
@@ -111,7 +116,7 @@ padding: 16px 40px;
 }
 .first-page{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     
     
 }
@@ -121,12 +126,22 @@ padding: 16px 40px;
 }
 
 .fast-mid-right{
+    position: relative;
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
     align-items: center;
     }
+.top-float{
+    position: absolute;
+    top: 160px;
+    right: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+background: rgba(255, 255, 255, 0.1);
+border: none;
+}    
 
 .top-float h1{
     color: rgb(255, 255, 255);
@@ -452,7 +467,7 @@ footer ul{
 font-family: Inter;
 font-size: 23px;
 font-weight: 400;
-margin-bottom: 20px;
+padding-bottom: 20px;
 cursor: pointer;
 background: #222222;
 }
@@ -468,13 +483,22 @@ background: #222222;
     width: 50%;
     background: #222222;
 }
+.footer-right-1{
+    background: #222222;
+    padding-top: 66px;
+}
+.footer-right-2{
+    background: #222222;
+    padding-top: 66px;
+}
 .footer-left h1{
     color: rgb(230, 83, 60);
 font-family: Inter;
 font-size: 70px;
 font-weight: 800;
 margin-top: 60px;
-margin-bottom: 20px;
+/* margin-bottom: 20px; */
+padding-bottom: 20px;
 background: #222222;
 }
 .footer-left i{
