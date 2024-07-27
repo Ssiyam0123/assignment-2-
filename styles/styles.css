@@ -565,9 +565,19 @@ background-color:#444444;
     display: flex;
     gap: 20px;
 }
-
-
-
+#big-plan-card ,
+#big-plan-card h1 ,
+#big-plan-card li ,
+#big-plan-card p ,
+#big-plan-card span,
+#big-plan-card ul
+{
+    background-color: #FC652E;
+}
+#big-plan-card button{
+    background-color: white;
+    color: orangered;
+}
 
 
 
@@ -696,6 +706,9 @@ background: #222222;
     .fast-mid-right{
         align-items: flex-start;
     }
+    .banner{
+        margin-top: 50px;
+    }
     .circle-card{
         display: flex;
         flex-direction: column;
@@ -736,6 +749,7 @@ background: #222222;
     }
     .bonus-mid{
         margin-bottom: 100px;
+        margin-top: 40px;
     }
 
 
