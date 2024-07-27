@@ -233,6 +233,7 @@ text-align: center;
 }
 .circle-img{
     border-radius: 50% 50%;
+    border: 5px solid #1A1A1A;
 }
 .circle h1{
     color: rgb(255, 255, 255);
