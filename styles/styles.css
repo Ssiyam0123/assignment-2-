@@ -541,7 +541,7 @@ font-size: 25px;
 font-weight: 600;
 }
 .plan-card ul{
-    list-style:disc;
+    list-style:none;
     color: rgba(255, 255, 255, 0.8);
 font-family: Inter;
 font-size: 14px;
@@ -722,6 +722,28 @@ background: #222222;
         grid-template-columns: repeat(1,1fr);
         gap: 20px;
     }
+    .bonus-mid{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .plan-card{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .top-heading-b{
+        margin-bottom: 20px;
+    }
+    .bonus-mid{
+        margin-bottom: 100px;
+    }
+
+
+
+
+
+
+
     .footer-mid{
         display: flex;
         flex-direction: column;
