@@ -129,6 +129,7 @@ nav ul{
     border-radius: 12px;
     backdrop-filter: blur(20px);
 background: rgba(255, 255, 255, 0.1);
+cursor: pointer;
 }
 .bottom-float{
     /* border: 2px solid red; */
@@ -141,6 +142,7 @@ background: rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     backdrop-filter: blur(20px);
 background: rgba(255, 255, 255, 0.1);
+cursor: pointer;
 }
 #ball{
     height: 35px;
@@ -609,6 +611,9 @@ background: #222222;
     .third-page-left{
         display: flex;
         flex-direction: column;
+    }
+    .third-page-right{
+        width: 100%;
     }
     .bmi-full{
         display: flex;
