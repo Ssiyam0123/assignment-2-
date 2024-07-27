@@ -478,6 +478,104 @@ margin-bottom: 5px;
 background-color: transparent;
 }
 
+
+
+
+
+
+
+.bonus-part{
+    /* background-color: #222222; */
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.bonus-part h1{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 32px;
+font-weight: 900;
+text-align: center;
+margin-bottom: 30px;
+margin-top: 20px;
+/* background-color:#444444; */
+}
+.bonus-part p{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+text-align: center;
+/* background-color:#444444; */
+}
+
+.plan-card{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    background-color:#444444;
+    /* border: 2px solid red; */
+    border-radius: 16px;
+    padding: 20px;
+}
+.plan-card h1{
+    background-color:#444444;
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+}
+.dolar{
+    background-color:#444444;
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 40px;
+font-weight: 900;
+}
+.plan-card p{
+    background-color:#444444;
+    padding-bottom: 30px;
+    font-family: Inter;
+font-size: 25px;
+font-weight: 600;
+}
+.plan-card ul{
+    list-style:disc;
+    color: rgba(255, 255, 255, 0.8);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+border-color: #444444;
+/* text-align: center; */
+padding-bottom: 20px;
+background-color:#444444;
+}
+.plan-card li{
+    padding-bottom: 20px;
+    background-color: #444444;
+    text-align: center;
+}
+.plan-card button{
+    /* background-color: #444444; */
+    color: aliceblue;
+    background-color: transparent;
+}
+.bonus-mid{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
 footer{
     background: #222222;
 }
