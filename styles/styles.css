@@ -32,6 +32,10 @@ nav ul{
     border-radius: 39px;
     padding:6px 8px;
 }
+.burger{
+    color: white;
+    display: none;
+}
 .title h1{
     color: rgb(230, 83, 60);
     font-family: Inter;
@@ -695,6 +699,11 @@ background: #222222;
     }
     .first-page-left h1{
         font-size: 50px;
+    }
+    .burger{
+        color: white;
+        display: block;
+        cursor: pointer;
     }
     .button-first-page{
         display: flex;
