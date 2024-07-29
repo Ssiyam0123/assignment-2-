@@ -717,11 +717,12 @@ background: #222222;
     }
     .button-first-page{
         display: flex;
+        margin: 0 auto;
+        gap: 10px;
+        width: 100%;
     }
     .btn-1 ,
     .btn-2{
-        /* width: 45%; */
-        margin: 0 auto;
         font-size: 12px;
     }
     .club{
@@ -761,7 +762,8 @@ background: #222222;
         flex-direction: column;
     }
     .credits{
-        width: 100%;
+        width: 95%;
+        margin: 0 auto;
     }
     .box-card{
         display: grid;
@@ -784,9 +786,7 @@ background: #222222;
         margin-bottom: 100px;
         margin-top: 40px;
     }
-    .btn-2{
-        font-size: ;
-    }
+   
 
 
 
