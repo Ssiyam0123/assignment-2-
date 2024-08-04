@@ -69,27 +69,27 @@ nav ul{
 
 .first-page-left{
     width: 50%;
-    margin-top: 90px;
+    margin-top: 40px;
 }
 .first-page-left h1{
     color: rgb(255, 255, 255);
     font-family: Inter;
     font-size: 78px;
     font-weight: 900;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .special{
     color: rgb(255, 255, 255);
     font-family: Miama;
-    font-size: 78px;
-    font-weight: 900;
+    font-size:120px;
+    font-weight: 100;
 }
 .first-page-left p{
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
     font-size: 16px;
     font-weight: 400;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .btn-1{
     color: rgb(255, 255, 255);
@@ -129,6 +129,7 @@ nav ul{
     align-items: center;
     /* border: 2px solid red; */
     margin-right: 90px;
+    margin-top: 45px;
     }
 .top-float{
     /* border: 2px solid white; */
@@ -368,7 +369,7 @@ font-weight: 500;
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
     background-color:#222222;
 }
 th, td {
@@ -381,20 +382,14 @@ font-family: Inter;
 font-size: 14px;
 font-weight: 400;
 }
-.bmi-right{
-    background-color:#222222;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: left;
-}
+
 .bmi-right h1{
     background-color:#222222;
     color: rgb(255, 255, 255);
 font-family: Inter;
 font-size: 28px;
 font-weight: 900;
-margin-bottom: 15px;
+padding-bottom: 15px;
 }
 .bmi-right p{
     background-color:#222222;
@@ -402,12 +397,12 @@ margin-bottom: 15px;
 font-family: Inter;
 font-size: 14px;
 font-weight: 400;
-margin-bottom: 35px;
+padding-bottom: 35px;
 }
 
 
 
-form{
+form {
     background-color:#222222;
 }
 form input{
@@ -418,7 +413,50 @@ form input{
     border: none;
 background: rgba(255, 255, 255, 0.1);
 }
-
+/* #Gender{
+    padding: 12px 390px 12px 20px;
+} */
+/* option{
+    background-color: black;
+    color: rgba(255, 255, 255, 0.6);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+} */
+.calc{
+    border-collapse: separate;
+    width: 100%;
+    border-spacing: 12px;
+ 
+} 
+.calc-td{
+    padding: 12px 40px 12px 20px;
+    border-radius: 10px;
+}
+input::placeholder{
+    background-color: #222222;
+    border: none;   
+}
+#gender ,
+#factor{
+    background-color: #222222;
+    border: none;
+    color: rgba(255, 255, 255, 0.6);
+font-family: Inter;
+font-size: 13px;
+font-weight: 200;
+}
+.no-border{
+    border: none;
+    background-color: #222222;
+}
+#bmi-btn{
+    width: 40%;
+}
+.bmi-btn-head{
+    background-color: #222222;
+    padding-left: 14px;
+}
 .box-card{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -673,7 +711,7 @@ background: #222222;
 }
 #last{
     padding-bottom: 80px;
-    background: #222222;s
+    background: #222222;
 }
 #copy-right{
     color: rgba(255, 255, 255, 0.5);
@@ -754,9 +792,24 @@ background: #222222;
     .third-page-right{
         width: 100%;
     }
+  
     .bmi-full{
         display: flex;
         flex-direction: column;
+        width: 95%;
+        margin: 0 auto;
+    }
+    .calc-td{
+        padding: 8px 8px 8px 8px;
+        border-radius: 10px;
+    }
+    /* .bmi-btn-head{
+       width: 100%;
+       margin: 0 auto;
+    } */
+    .bmi-tbody{
+        width: 100%;
+        margin: 0;
     }
     .credits{
         width: 95%;
@@ -804,7 +857,13 @@ background: #222222;
         width: 100%;
     }
     .bmi-right{
-        width: 80%;
+        width: 100%;
+        margin: 0 auto;
+       background-color: #222222;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
     }
     form input{
         padding: 12px 100px 12px 20px;
