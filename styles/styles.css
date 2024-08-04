@@ -56,6 +56,11 @@ nav ul{
     padding: 12px 25px;
     border: none;
 }
+.home ul{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 6px 20px 6px 6px;
+
+}
 .home li{
     color: rgb(255, 255, 255);
     font-family: Inter;
@@ -63,7 +68,7 @@ nav ul{
     font-weight: 400;
 }
 .home li{
-    margin-top: 13px;
+    margin-top: 10px;
     cursor: pointer;
 }
 
