@@ -15,7 +15,10 @@ header{
     width: 80%;
     margin: 0 auto;
     margin-top: 55px;
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
+    /* background: rgb(221, 27, 27); */
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(41,40,40,1) 40%, rgba(47,44,44,1) 50%, rgba(36,36,36,1) 60%, rgba(0,0,0,1) 100%);
+
 }
 nav{
     display: flex;
@@ -197,7 +200,7 @@ background-color: transparent;
     background-color: transparent;
 }
 .botom{
-    background-color: transparent;s
+    background-color: transparent;
 }
 
 
@@ -418,16 +421,7 @@ form input{
     border: none;
 background: rgba(255, 255, 255, 0.1);
 }
-/* #Gender{
-    padding: 12px 390px 12px 20px;
-} */
-/* option{
-    background-color: black;
-    color: rgba(255, 255, 255, 0.6);
-font-family: Inter;
-font-size: 16px;
-font-weight: 400;
-} */
+
 .calc{
     border-collapse: separate;
     width: 100%;
@@ -804,14 +798,21 @@ background: #222222;
         width: 95%;
         margin: 0 auto;
     }
+    .bmi-left{
+        padding-bottom: 30px;
+        width: 100%;
+    }
+    .calc{
+        border-spacing: 5px;
+        margin: -8px;
+    }
+    
     .calc-td{
         padding: 8px 8px 8px 8px;
         border-radius: 10px;
+        border-bottom: 10px;
     }
-    /* .bmi-btn-head{
-       width: 100%;
-       margin: 0 auto;
-    } */
+   
     .bmi-tbody{
         width: 100%;
         margin: 0;
@@ -858,9 +859,7 @@ background: #222222;
         display: flex;
         flex-direction: column;
     }
-    .bmi-left{
-        width: 100%;
-    }
+
     .bmi-right{
         width: 100%;
         margin: 0 auto;
@@ -883,3 +882,5 @@ background: #222222;
         margin-bottom: 50px;
     }
 }
+
+    
