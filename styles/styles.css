@@ -390,6 +390,9 @@ font-family: Inter;
 font-size: 14px;
 font-weight: 400;
 }
+.bmi-right{
+    background-color: #222222;
+}
 
 .bmi-right h1{
     background-color:#222222;
@@ -424,13 +427,17 @@ background: rgba(255, 255, 255, 0.1);
 
 .calc{
     border-collapse: separate;
-    width: 100%;
+    width: 90%;
     border-spacing: 12px;
+    background-color: #222222;
  
 } 
 .calc-td{
-    padding: 12px 40px 12px 20px;
-    border-radius: 10px;
+    /* padding: 12px 40px 12px 20px;
+    border-radius: 10px; */
+    padding: 8px 8px 8px 8px;
+        border-radius: 10px;
+        border-bottom: 10px;
 }
 input::placeholder{
     background-color: #222222;
@@ -442,7 +449,7 @@ input::placeholder{
     border: none;
     color: rgba(255, 255, 255, 0.6);
 font-family: Inter;
-font-size: 13px;
+font-size: 0.8125rem;
 font-weight: 200;
 }
 .no-border{
@@ -477,7 +484,7 @@ font-weight: 200;
 .credits-heading  h1{
     color: rgb(255, 255, 255);
 font-family: Inter;
-font-size: 48px;
+font-size: 3rem;
 font-weight: 900;
 margin-top: 100px;
 }
@@ -487,7 +494,7 @@ margin-top: 100px;
 .credits-heading p{
     color: rgba(255, 255, 255, 0.5);
 font-family: Inter;
-font-size: 14px;
+font-size: 0.875rem;
 font-weight: 400;
 margin-top: 15px;
 margin-bottom: 80px;
@@ -513,7 +520,7 @@ margin-bottom: 80px;
 .info h1{
     color: rgb(255, 255, 255);
 font-family: Inter;
-font-size: 18px;
+font-size: 1.125rem;
 font-weight: 600;
 background-color: transparent;
 margin-bottom: 5px;
@@ -521,7 +528,7 @@ margin-bottom: 5px;
 .info p{
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
 background-color: transparent;
 }
@@ -758,10 +765,18 @@ background: #222222;
         gap: 10px;
         width: 100%;
     }
-    /* .btn-1 ,
+    .btn-1 ,
     .btn-2{
-        font-size: 12px;
-    } */
+        font-size: 11px;
+    }
+    .button-first-page{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+     .bmi-btn{
+        padding-right: 117px;
+     }
     .bottom-float{
         right: 0px;
     }
@@ -805,13 +820,15 @@ background: #222222;
     .calc{
         border-spacing: 5px;
         margin: -12px;
+        
+        
     }
     
-    .calc-td{
+    /* .calc-td{
         padding: 8px 8px 8px 8px;
         border-radius: 10px;
         border-bottom: 10px;
-    }
+    } */
    
     .bmi-tbody{
         width: 100%;
@@ -870,7 +887,7 @@ background: #222222;
     align-items: left;
     }
     form input{
-        padding: 12px 100px 12px 20px;
+        /* padding: 12px 100px 12px 20px; */
         width: 80%;
         gap: 5px;
     }
