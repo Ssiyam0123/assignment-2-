@@ -42,7 +42,7 @@ nav ul{
 .title h1{
     color: rgb(230, 83, 60);
     font-family: Inter;
-    font-size: 36px;
+    font-size: 2rem;
     font-weight: 800;
 }
 
@@ -54,7 +54,7 @@ nav ul{
     background: rgb(230, 83, 60);
     color: rgb(255, 255, 255);
     font-family: Inter;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 600;
     padding: 12px 25px;
     border: none;
@@ -67,7 +67,7 @@ nav ul{
 .home li{
     color: rgb(255, 255, 255);
     font-family: Inter;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 400;
 }
 .home li{
@@ -82,27 +82,27 @@ nav ul{
 .first-page-left h1{
     color: rgb(255, 255, 255);
     font-family: Inter;
-    font-size: 78px;
+    font-size: 4.875rem;
     font-weight: 900;
     margin-bottom: 30px;
 }
 .special{
     color: rgb(255, 255, 255);
     font-family: Miama;
-    font-size:120px;
+    font-size: 7.5rem;
     font-weight: 100;
 }
 .first-page-left p{
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     margin-bottom: 30px;
 }
 .btn-1{
     color: rgb(255, 255, 255);
     font-family: Inter;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 600;
     border-radius: 42px;
     padding: 16px 40px;
@@ -118,7 +118,7 @@ nav ul{
     border-radius: 42px;
     color: rgb(255, 255, 255);
     font-family: Inter;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 600;
     padding: 16px 40px;
 }
@@ -174,28 +174,28 @@ cursor: pointer;
 .top-float h1{
     color: rgb(255, 255, 255);
 font-family: Inter;
-font-size: 40px;
+font-size: 2.5rem;
 font-weight: 900;
 background-color: transparent;
 }
 .top-float p{
     color: rgba(255, 255, 255, 0.65);
 font-family: Inter;
-font-size: 13px;
+font-size: 0.8125rem;
 font-weight: 400;
 background-color: transparent;
 }
 .bottom-float h1{
     color: rgb(255, 255, 255);
 font-family: Inter;
-font-size: 40px;
+font-size: 2.5rem;
 font-weight: 900;
 background-color: transparent;
 }
 .bottom-float p{
     color: rgba(255, 255, 255, 0.65);
     font-family: Inter;
-    font-size: 13px;
+    font-size: 0.8125rem;
     font-weight: 400; 
     background-color: transparent;
 }
@@ -758,10 +758,10 @@ background: #222222;
         gap: 10px;
         width: 100%;
     }
-    .btn-1 ,
+    /* .btn-1 ,
     .btn-2{
         font-size: 12px;
-    }
+    } */
     .bottom-float{
         right: 0px;
     }
