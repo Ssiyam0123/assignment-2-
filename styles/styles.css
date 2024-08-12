@@ -455,6 +455,7 @@ font-weight: 200;
 .no-border{
     border: none;
     background-color: #222222;
+   
 }
 #bmi-btn{
     width: 40%;
@@ -818,10 +819,13 @@ background: #222222;
         width: 100%;
     }
     .calc{
-        border-spacing: 5px;
-        margin: -12px;
+        border-spacing: 12px;
+        /* margin: -12px; */
         
         
+    }
+    .no-border{
+        width: 140px;
     }
     
     /* .calc-td{
