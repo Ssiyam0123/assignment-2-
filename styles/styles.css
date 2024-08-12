@@ -791,9 +791,11 @@ background: #222222;
     .fast-mid-right{
         align-items: flex-start;
     }
-    /* .banner{
-        margin-top: 50px;
-    } */
+    .banner{
+        /* margin-top: 50px; */
+        width: 80%;
+        margin: 0 auto;
+    }
     .circle-card{
         display: flex;
         flex-direction: column;
@@ -820,7 +822,8 @@ background: #222222;
     }
     .bmi-left{
         padding-bottom: 30px;
-        width: 100%;
+        width: 90%;
+        margin: 0 auto;
     }
     .calc{
         border-spacing: 12px;    
