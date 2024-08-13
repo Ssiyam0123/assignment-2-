@@ -811,6 +811,7 @@ background: #222222;
      }
     .bottom-float{
         right: 0px;
+        margin-left: 200px;
     }
     .first-page-left{
         width: 100%
@@ -820,7 +821,7 @@ background: #222222;
     }
     .banner{
         /* margin-top: 50px; */
-        width: 80%;
+        width: 100%;
         margin: 0 auto;
     }
     main{
