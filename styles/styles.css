@@ -153,8 +153,10 @@ rgba(1, 1, 1,0.719) 100%
     justify-content: center;
     align-items: center;
     /* border: 2px solid red; */
-    margin-right: 90px;
-    margin-top: 45px;
+    /* margin-right: 90px;
+    margin-top: 45px; */
+    padding-right: 90px;
+    padding-top: 45px;
     }
 .top-float{
     /* border: 2px solid white; */
@@ -186,7 +188,8 @@ cursor: pointer;
     background: rgb(230, 83, 60);;
     border-radius: 50%;
     margin-top: 15px;
-    margin-right: 10px;
+    padding-right: 10px; 
+    /* swkdjpadding-rught */
 }
 .top-float h1{
     color: rgb(255, 255, 255);
@@ -230,6 +233,8 @@ background-color: transparent;
 
 main{
     background-color: #1A1A1A;
+    width: 100%;
+    margin: 0 auto;
 }
 .second-page{
     width: 80%;
@@ -818,6 +823,9 @@ background: #222222;
         width: 80%;
         margin: 0 auto;
     }
+    main{
+        width: 110%;
+    }
     .circle-card{
         display: flex;
         flex-direction: column;
@@ -896,7 +904,9 @@ background: #222222;
 
 
 
-
+    footer{
+        width: 110%;
+    }
     .footer-mid{
         display: flex;
         flex-direction: column;
