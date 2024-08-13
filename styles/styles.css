@@ -4,7 +4,7 @@
 @import url('https://fonts.cdnfonts.com/css/miama');
 
 *{
-    background: rgb(0, 0, 0);
+    /* background: rgb(0, 0, 0); */
     margin: 0px;
     padding: 0px;
 }
@@ -12,10 +12,20 @@ button{
     cursor: pointer;
 }
 header{
-    width: 80%;
-    margin: 0 auto;
-    margin-top: 55px;
-    background-image: linear-gradient(to bottom,white,black);
+    /* width: 80%; */
+    /* margin: 80%; */
+    /* margin: 0 auto; */
+    /* margin-top: 55px; */
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 4%;
+    /* border: 2px solid yellow; */
+    background: linear-gradient(
+180deg,
+rgba(19, 19, 19, 0.747)0%,
+rgb(30, 30, 30) 50%,
+rgba(1, 1, 1,0.719) 100%
+);
 
 }
 nav{
@@ -32,6 +42,17 @@ nav ul{
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 39px;
     padding:6px 8px;
+}
+.first-page{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    /* background:  linear-gradient(
+180deg,
+rgba(19, 19, 19, 0.747)0%,
+rgb(30, 30, 30) 50%,
+rgba(1, 1, 1,0.719) 100%
+); */
 }
 .burger{
     color: white;
@@ -119,11 +140,9 @@ nav ul{
     font-size: 1.125rem;
     font-weight: 600;
     padding: 16px 40px;
+    background: transparent;
 }
-.first-page{
-    display: flex;
-    justify-content: space-between;
-}
+
 
 
 .fast-mid-right{
@@ -209,11 +228,13 @@ background-color: transparent;
 
 
 
-
+main{
+    background-color: #1A1A1A;
+}
 .second-page{
     width: 80%;
     margin: 0 auto;
-    margin-top: 100px;
+    padding-top: 100px;
 }
 .second-page-heading{
     width: 100%;
@@ -549,6 +570,7 @@ background-color: transparent;
     width: 80%;
     margin: 0 auto;
     margin-top: 100px;
+    padding-bottom: 100px;
 }
 .bonus-part h1{
     color: rgb(255, 255, 255);
@@ -657,7 +679,7 @@ footer{
     width: 80%;
     margin: 0 auto;
     display: flex;
-    margin-top: 100px;
+    padding-top: 80px;
     border-bottom: 2px solid rgba(255, 255, 255, 0.1);
     background: #222222;
 }
@@ -887,7 +909,7 @@ background: #222222;
     }
 
     .bmi-right{
-        width: 100%;
+        width: 90%;
         margin: 0 auto;
        background-color: #222222;
     display: flex;
