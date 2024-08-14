@@ -893,10 +893,12 @@ background: #222222;
         padding-right: 10%;
     }
     #gender{
-        padding-right: 50%;
+        padding-right: 20%;
+        
     }
     #factor{
-        padding-right: 46.125%;
+        padding-right: 30%;
+        
     }
     /* .calc-td{
         padding: 8px 8px 8px 8px;
