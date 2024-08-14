@@ -20,12 +20,13 @@ header{
     padding-right: 10%;
     padding-top: 4%;
     /* border: 2px solid yellow; */
-    background: linear-gradient(
+    /* background: linear-gradient(
 180deg,
 rgba(19, 19, 19, 0.747)0%,
 rgb(30, 30, 30) 50%,
 rgba(1, 1, 1,0.719) 100%
-);
+); */
+background: linear-gradient(180.00deg, rgb(17, 17, 17)0%,rgb(45, 45, 45)50%, rgb(0, 0, 0)100%);
 
 }
 nav{
@@ -480,10 +481,19 @@ input::placeholder{
 font-family: Inter;
 font-size: 0.8125rem;
 font-weight: 200;
+/* padding: 100%; */
+/* padding-right: 60%; */
+}
+#gender{
+    padding-right: 60%;
+}
+#factor{
+    padding-right: 63.12%;
 }
 .no-border{
     border: none;
     background-color: #222222;
+    padding-right: 30%;
    
 }
 #bmi-btn{
@@ -869,8 +879,14 @@ background: #222222;
     .no-border{
         /* width: 140px; */
         width: 90%;
+        padding-right: 10%;
     }
-    
+    #gender{
+        padding-right: 50%;
+    }
+    #factor{
+        padding-right: 46.125%;
+    }
     /* .calc-td{
         padding: 8px 8px 8px 8px;
         border-radius: 10px;
@@ -949,5 +965,12 @@ background: #222222;
         margin-bottom: 0px;
     } */
 }
-
+@media screen and (max-width: 349px){
+    body{
+        background-color: #1A1A1A;
+    }
+    header{
+        background: linear-gradient(180.00deg, rgb(17, 17, 17)0%,rgb(119, 119, 119)50%, rgb(17, 17, 17)100%);
+    }
+}
     
