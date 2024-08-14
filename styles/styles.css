@@ -444,7 +444,8 @@ padding-bottom: 35px;
 
 
 form {
-    background-color:#222222;
+    /* background-color:#222222; */
+    background: rgba(255, 255, 255, 0.1);
 }
 form input{
     padding: 12px 190px 12px 20px;
@@ -468,32 +469,42 @@ background: rgba(255, 255, 255, 0.1);
     padding: 8px 8px 8px 8px;
         border-radius: 10px;
         /* border-bottom: 10px; */
+        background: rgba(255, 255, 255, 0.1);
 }
 input::placeholder{
-    background-color: #222222;
+    /* background-color: #222222; */
+    background: rgba(255, 255, 255, 0);
     border: none;   
 }
 #gender ,
 #factor{
-    background-color: #222222;
+    /* background-color: #222222; */
+    background: rgba(255, 255, 255, 0);
     border: none;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.319);
 font-family: Inter;
 font-size: 0.8125rem;
 font-weight: 200;
-/* padding: 100%; */
-/* padding-right: 60%; */
 }
 #gender{
     padding-right: 60%;
+    margin-right: 30px;
+    margin-left: 10px;
 }
 #factor{
     padding-right: 63.12%;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+option{
+    background-color: #3c3c48;
 }
 .no-border{
     border: none;
-    background-color: #222222;
+    /* background-color: #222222; */
+    background: rgba(255, 255, 255, 0);
     padding-right: 30%;
+    margin-left: 10px;
    
 }
 #bmi-btn{
@@ -970,7 +981,7 @@ background: #222222;
         background-color: #1A1A1A;
     }
     header{
-        background: linear-gradient(180.00deg, rgb(17, 17, 17)0%,rgb(119, 119, 119)50%, rgb(17, 17, 17)100%);
+        background: linear-gradient(180.00deg, rgb(17, 17, 17)0%,rgb(45, 45, 45)50%, rgb(0, 0, 0)100%);
     }
 }
     
