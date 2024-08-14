@@ -983,7 +983,9 @@ background: #222222;
         background-color: #1A1A1A;
     }
     header{
-        background: linear-gradient(180.00deg, rgb(17, 17, 17)0%,rgb(45, 45, 45)50%, rgb(0, 0, 0)100%);
+        /* background: linear-gradient(180.00deg, rgb(17, 17, 17)0%,rgb(45, 45, 45)50%, rgb(0, 0, 0)100%); */
+        background: #1A1A1A;
     }
+
 }
     
